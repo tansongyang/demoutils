@@ -1,0 +1,14 @@
+body {
+  background-color: #272822;
+  color: #f8f8f2;
+  font-family: monospace;
+  font-size: 24px;
+}
+
+.demoutils-assert-result-pass {
+  color: #a6e22e;
+}
+
+.demoutils-assert-result-fail {
+  color: #f92672;
+}

@@ -28,7 +28,7 @@ var demoutils = (function () {
         '<span class="demoutils-assert-result demoutils-assert-result-' + result +'">' +
         result.toUpperCase() +
         '</span>' +
-        (description ? '<span class="demoutils-assert-description">' + description + '</span>' : '') +
+        (description ? ' <span class="demoutils-assert-description"> ' + description + '</span>' : '') +
         '</span>'
     } else {
       alert(result.toUpperCase() + (description ? ' ' + description : ''));
